@@ -1,0 +1,26 @@
+nav {
+    background-color: #ddd; /* Set background color */
+    padding: 10px; /* Add padding for spacing */
+  }
+  
+  nav ul {
+    list-style: none; /* Remove default list item bullets */
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove default padding */
+  }
+  
+  nav li {
+    display: inline-block; /* Display list items horizontally */
+    margin-right: 20px; /* Add spacing between list items */
+  }
+  
+  nav a {
+    text-decoration: none; /* Remove default underline */
+    color: black; /* Set text color */
+  }
+  
+  nav a:hover {
+    color: #080808; /* Change text color on hover */
+    font-weight: bold; /* Make text bold on hover */
+  }
+  

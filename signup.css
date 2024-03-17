@@ -1,0 +1,78 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif; /* Set a default font */
+  margin: 0; /* Remove default margin from body */
+}
+
+/* Form container */
+form {
+  width: 1000px; /* Set a width for the form */
+  margin: 50px auto; /* Center the form horizontally */
+  padding: 20px; /* Add some padding inside the form */
+  border: 1px solid #ddd; /* Create a thin border */
+  border-radius: 5px; /* Add rounded corners */
+}
+
+/* Form heading */
+h1 {
+  text-align: center; /* Center align the heading */
+  margin-bottom: 20px; /* Add some space below the heading */
+  font-size: 24px; /* Increase heading font size */
+}
+
+/* Table layout (optional) */
+table {
+  width: 100%; /* Make the table fill the form width */
+  border-collapse: collapse; /* Remove default spacing between table cells */
+}
+
+/* Table cells */
+td {
+  padding: 10px; /* Add padding to table cells */
+}
+
+/* Labels (consider using proper labels instead of aligning text) */
+td:first-child {
+  text-align: right; /* Right-align the labels (optional) */
+}
+
+/* Input fields */
+input[type="text"],
+input[type="email"] {
+  width: 100%; /* Make input fields fill the cell width */
+  padding: 8px; /* Add padding to input fields */
+  border: 1px solid #ccc; /* Create a thin border */
+  border-radius: 3px; /* Add rounded corners */
+}
+
+/* Submit button */
+input[type="submit"] {
+  background-color: #4CAF50; /* Green color for submit button */
+  color: white; /* White text for submit button */
+  padding: 10px 20px; /* Add padding to submit button */
+  border: none; /* Remove default border from submit button */
+  border-radius: 4px; /* Add rounded corners */
+  cursor: pointer; /* Indicate clickable behavior */
+}
+
+/* Submit button hover effect (optional) */
+input[type="submit"]:hover {
+  background-color: #3e8e41; /* Darker green on hover */
+}
+
+/* Login link styling (optional) */
+a {
+  text-decoration: none; /* Remove underline from link */
+  color: #666; /* Set link text color */
+}
+
+button {
+  background-color: transparent; /* Remove default button background */
+  border: none; /* Remove default button border */
+  padding: 5px 10px; /* Add some padding */
+  cursor: pointer; /* Indicate clickable behavior */
+}
+
+button:hover {
+  text-decoration: underline; /* Underline link on hover */
+}
